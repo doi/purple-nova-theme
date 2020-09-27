@@ -1,0 +1,11 @@
+{
+    "identifier": "doi.purple",
+    "name": "Purple Theme",
+    "organization": "donnaiwan",
+    "description": "A dark theme for Nova based on Shades of Purple Theme.",
+    "version": "1.0",
+    "categories": ["themes"],
+    "repository": "",
+    "bugs": "",
+    "license": "MIT"
+}

@@ -1,0 +1,306 @@
+meta {
+    -theme-interface-style: dark;
+    -theme-vibrancy: none;
+    -theme-accent-color: true;
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+    background-color: rgb(30, 30, 63);
+    border-color: rgba(165, 153, 233, 0.2);
+}
+meta.titlebar {
+    color: rgba(165, 153, 233, 1);
+    background: linear-gradient(rgb(30, 30, 63), rgba(30, 30, 63, 0.8));
+}
+meta.titlebar.inactive {
+    background-color: rgb(45, 43, 85);
+}
+meta.button {
+    background-color: rgb(30, 30, 63);
+    border-color: rgba(165, 153, 233, 0.2);
+    color: white;
+}
+meta.button.highlighted {
+    background-color: rgba(236, 58, 55, 1);
+    color: white;
+}
+meta.button.selected {
+    background-color: rgba(236, 58, 55, 1);
+    color: white;
+}
+meta.button.highlighted.selected {
+}
+meta.button.disabled {
+    background-color: rgb(30, 30, 63);
+    border-color: rgba(165, 153, 233, 0.2);
+    color: rgba(165, 153, 233, 0.2);
+}
+meta.textfield {
+    background-color: rgb(30, 30, 63);
+    border-color: rgba(165, 153, 233, 0.2);
+}
+meta.accent {
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: rgb(45, 43, 85);
+    border-color: rgba(165, 153, 233, 0.2);
+}
+
+meta.document.button {
+    background-color: rgb(30, 30, 63);
+    border-color: rgba(165, 153, 233, 0.2);
+    color: white;
+}
+meta.document.button.disabled {
+    background-color: rgb(30, 30, 63);
+    border-color: rgba(165, 153, 233, 0.2);
+    color: rgba(165, 153, 233, 0.2);
+}
+meta.document.button.highlighted {
+    background-color: rgba(236, 58, 55, 1);
+    color: white;
+}
+
+meta.document.textfield {
+    background-color: rgb(30, 30, 63);
+    border-color: rgba(165, 153, 233, 0.2);
+}
+
+/* Text */
+meta.text {
+    color: white;
+}
+meta.text.invisible {
+    color: rgba(165, 153, 233, 0.2);
+}
+meta.text.selected {
+    background: rgba(179, 98, 255, 0.5);
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: rgb(30, 30, 63);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: hsla(249, 64%, 75%, 0.2);
+}
+
+/* Gutter */
+meta.gutter {
+    color: rgba(165, 153, 233, 0.6);
+    background-color: rgb(30, 30, 63);
+}
+meta.gutter.selected {
+    color: white;
+}
+
+
+/*
+ * Syntax styles
+ */
+keyword {
+    color: rgb(255, 157, 0);
+}
+comment {
+    color: rgb(179, 98, 255);
+}
+processing {
+}
+declaration {
+    color: white;
+}
+bracket {
+    color: rgb(255, 238, 128);
+}
+operator {
+    color: rgb(255, 157, 0);
+}
+invalid {
+    background-color: hsb(355, 82%, 96%);
+    color: hsb(60, 3%, 97%);
+}
+link {
+    color: hsb(210, 60%, 100%);
+}
+
+/* Values */
+value.boolean {
+    color: rgb(255, 98, 140);
+}
+value.null {
+    color: rgb(255, 98, 140);
+}
+value.number {
+    color: rgb(255, 98, 140);
+}
+value.entity {
+    /* html entity */
+    color: rgb(255, 98, 140);
+}
+value.symbol {
+    /* ruby symbol */
+    color: rgb(255, 98, 140);
+}
+
+/* Identifiers */
+identifier.type {
+    color: rgb(158, 255, 255);
+}
+identifier.constant {
+    color: rgb(255, 98, 140);
+}
+identifier.global {
+    color: rgb(158, 255, 255);
+}
+identifier.variable {
+    color: rgb(158, 255, 255);
+}
+identifier.property,
+identifier.decorator,
+identifier.method,
+identifier.function{
+    color: rgb(250, 208, 0);
+}
+identifier.key {
+    color: hsb(210, 60%, 100%);
+}
+identifier.argument {
+    color: rgb(158, 255, 255);
+}
+identifier.core {
+}
+
+/* Strings */
+string {
+    color: rgb(165, 255, 144);
+}
+string.key {
+    color: rgb(250, 208, 0);
+}
+string-template {
+    color: rgb(158, 255, 255);
+}
+string-template.value {
+    color: hsb(27, 72%, 100%);
+}
+regex {
+    color: rgb(165, 255, 144);
+}
+regex.escaped {
+    color: rgb(255, 98, 140);
+}
+cdata {
+    color: rgb(165, 255, 144);
+}
+
+/* Markup */
+markup.heading {
+    color: rgb(250, 208, 0);
+    font-weight: bold;
+}
+markup.line {
+    color: hsb(60, 50%, 75%);
+}
+markup.bold {
+    font-weight: bold;
+}
+markup.italic {
+    font-style: italic;
+}
+markup.strikethrough {
+    color: rgb(255, 98, 140);
+}
+markup.list.item {
+    color: rgb(250, 208, 0);
+}
+markup.code {
+    color: rgb(165, 255, 144);
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+    font-weight: bold;
+    color: hsb(258, 40%, 87%);
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+    color: hsb(210, 10%, 100%);
+}
+
+/* Tags */
+tag {
+    color: rgb(158, 255, 255);
+}
+tag.framework {
+    color: white;
+    font-weight: bold;
+}
+tag.attribute.name {
+    color: #FAD000;
+}
+tag.attribute.value {
+    color: #A5FF90;
+}
+tag.attribute.value.link {
+    color: #A5FF90;
+}
+
+/* Styles */
+style{
+}
+style.at {
+    color: rgb(250, 208, 0);
+    font-weight: bold;
+}
+style.selector.element {
+    font-weight: bold;
+    color: rgb(250, 208, 0);
+}
+style.selector.identifier.id {
+    color: rgb(255, 157, 0);
+    /* font-style: italic; */
+}
+style.selector.identifier.class {
+    color: rgb(158, 255, 255);
+    /* font-style: italic; */
+}
+style.selector.pseudoclass {
+    color: rgb(255, 157, 0);
+    /* font-style: italic; */
+}
+style.selector.pseudoelement {
+    color: rgb(250, 208, 0);
+    /* font-style: italic; */
+}
+style.attribute.name {
+    color: rgb(165, 255, 144);
+}
+style.value.number {
+    color: rgb(255, 98, 140);
+}
+style.value.color.hex {
+    color: rgb(255, 238, 128);
+}
+style.value.keyword {
+    color: rgb(255, 157, 0);
+}
+style.value.color.named {
+    color: rgb(255, 238, 128);
+}
