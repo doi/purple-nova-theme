@@ -5,7 +5,7 @@
     "description": "A dark theme for Nova based on Shades of Purple Theme.",
     "version": "1.0",
     "categories": ["themes"],
-    "repository": "",
-    "bugs": "",
+    "repository": "https://github.com/doi/purple-nova-theme",
+    "bugs": "https://github.com/doi/purple-nova-theme/issues",
     "license": "MIT"
 }
