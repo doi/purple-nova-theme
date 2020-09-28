@@ -1,7 +1,7 @@
 meta {
     -theme-interface-style: dark;
     -theme-vibrancy: none;
-    -theme-accent-color: true;
+    -theme-accent-color: false;
 }
 
 /*
@@ -13,7 +13,7 @@ meta.window {
 }
 meta.titlebar {
     color: rgba(165, 153, 233, 1);
-    background: linear-gradient(rgb(30, 30, 63), rgba(30, 30, 63, 0.8));
+    background: linear-gradient(rgba(30, 30, 63, 0.8), rgba(30, 30, 63, 1));
 }
 meta.titlebar.inactive {
     background-color: rgb(45, 43, 85);
@@ -43,6 +43,7 @@ meta.textfield {
     border-color: rgba(165, 153, 233, 0.2);
 }
 meta.accent {
+    color: rgba(236, 58, 55, 1);
 }
 
 /*
